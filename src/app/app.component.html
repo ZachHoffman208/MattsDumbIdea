@@ -1,0 +1,15 @@
+<mat-toolbar color = "primary">
+    <h1>Matt's Used Toothbrush Emporium</h1>
+
+    <span class = "menu-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="'/new'">New</a>
+      <a mat-button [routerLink]="'/used'">Used</a>
+      <a mat-button [routerLink]="'/deals'">Deals</a>
+      <a mat-button [routerLink]="'/how-to'">How To</a>
+    </div>
+</mat-toolbar>
+
+<div class = "container">
+  <router-outlet></router-outlet>
+</div>
